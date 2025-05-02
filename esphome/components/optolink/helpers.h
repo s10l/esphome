@@ -1,7 +1,5 @@
 #pragma once
 
-#ifdef USE_ARDUINO
-
 #include <cstdint>
 #include <string>
 
@@ -30,4 +28,3 @@ uint8_t *encode_day_schedule(const std::string &input, uint8_t *output);
 }  // namespace optolink
 }  // namespace esphome
 
-#endif

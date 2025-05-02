@@ -1,5 +1,3 @@
-#ifdef USE_ARDUINO
-
 #include "esphome/core/defines.h"
 #include "esphome/core/log.h"
 #include "optolink.h"
@@ -144,5 +142,3 @@ size_t Optolink::write(uint8_t ch) {
 
 }  // namespace optolink
 }  // namespace esphome
-
-#endif

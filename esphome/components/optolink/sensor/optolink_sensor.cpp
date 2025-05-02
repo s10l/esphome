@@ -1,5 +1,3 @@
-#ifdef USE_ARDUINO
-
 #include "optolink_sensor.h"
 #include "esphome/core/application.h"
 #include "../optolink.h"
@@ -58,5 +56,3 @@ void OptolinkSensor::datapoint_value_changed(uint32_t value) {
 
 }  // namespace optolink
 }  // namespace esphome
-
-#endif

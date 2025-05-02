@@ -1,5 +1,3 @@
-#ifdef USE_ARDUINO
-
 #include "datapoint_component.h"
 #include "optolink.h"
 
@@ -285,5 +283,3 @@ DPValue conv4_1000_F::decode(const uint8_t *in) {
 
 }  // namespace optolink
 }  // namespace esphome
-
-#endif

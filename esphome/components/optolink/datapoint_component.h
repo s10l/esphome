@@ -1,7 +1,5 @@
 #pragma once
 
-#ifdef USE_ARDUINO
-
 #include "esphome/core/log.h"
 #include "esphome/core/string_ref.h"
 #include "esphome/core/component.h"
@@ -82,5 +80,3 @@ class conv4_1000_F : public DPType {
 
 }  // namespace optolink
 }  // namespace esphome
-
-#endif

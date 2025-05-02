@@ -1,7 +1,5 @@
 #pragma once
 
-#ifdef USE_ARDUINO
-
 #include "esphome/components/text_sensor/text_sensor.h"
 #include "../optolink.h"
 #include "../datapoint_component.h"
@@ -44,5 +42,3 @@ class OptolinkTextSensor : public DatapointComponent, public esphome::text_senso
 
 }  // namespace optolink
 }  // namespace esphome
-
-#endif

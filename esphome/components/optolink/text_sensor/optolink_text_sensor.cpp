@@ -1,5 +1,3 @@
-#ifdef USE_ARDUINO
-
 #include "esphome/core/log.h"
 #include "optolink_text_sensor.h"
 #include "../optolink.h"
@@ -83,5 +81,3 @@ void OptolinkTextSensor::datapoint_value_changed(uint32_t value) {
 
 }  // namespace optolink
 }  // namespace esphome
-
-#endif
